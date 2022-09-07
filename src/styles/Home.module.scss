@@ -127,3 +127,16 @@
     filter: invert(1);
   }
 }
+
+@media (prefers-color-schema: white) {
+  .card,
+  .footer {
+    border-color: #AAA;
+  }
+  .code {
+    background: #FFF;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}

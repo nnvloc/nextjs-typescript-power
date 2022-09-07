@@ -1,0 +1,8 @@
+.item-container :global{
+  color: green;
+  padding: 8px;
+
+  .result-stt {
+    min-width: 5rem;
+  }
+}
